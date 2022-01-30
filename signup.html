@@ -32,6 +32,31 @@
             </ul>
         </nav>
     </header>
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Dualism For You</h2>
+            <div>
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" required>
+            </div>
+            <div>
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" required>
+            </div>
+            <div>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" required>
+            </div>
+            <label for="notifications">Recieve notifications</label>
+            <input type="radio" id="notifications" name="accept_contact methods" value="notifications" required>
+            <label for="newsletter">Sign up to newsletter</label>
+            <input type="radio" id="newsletter" name="accept_contact methods" value="newsletter" required>
+            <label for="both">Both</label>
+            <input type="radio" id="both" name="accept_contact methods" value="both" required>
+            
+            <input class="join-button" type="submit" value="Sign up">
+        </form>
+    </section>   
     <hr>
     <section id="contact">
         <h2>Contact</h2>
