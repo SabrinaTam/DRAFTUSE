@@ -75,3 +75,18 @@ h2 {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* hero video and cover text */
+#hero-video {
+    float: center;
+    margin: 0%;
+}
+/* welcome about us*/
+
+#welcome {
+    background-color: whitesmoke;
+    text-align: center;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    border: 0%;
+}
